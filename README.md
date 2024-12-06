@@ -24,13 +24,7 @@ La aplicación consume la API de **SkyScraper** para obtener los vuelos disponib
 - **Destino**: Aeropuerto de llegada.
 - **Operadora**: Aerolínea que opera el vuelo.
 
-### Búsqueda de Aeropuertos
-
-Para realizar la búsqueda de vuelos, la API de **SkyScraper** requiere los códigos IATA de los aeropuertos de origen y destino. Dado que los usuarios ingresan el nombre de los aeropuertos, la aplicación primero consume la API para buscar los aeropuertos por nombre y obtener sus respectivos códigos IATA.
-
-Con esta información, la aplicación puede realizar la búsqueda de vuelos, proporcionando resultados precisos y completos.
-
-## Uso
+### Uso
 
 Búsqueda de aeropuertos: El usuario ingresa el nombre de un aeropuerto y la aplicación obtiene el código IATA correspondiente utilizando la API de SkyScraper.
 Búsqueda de vuelos: Una vez que se obtiene el código IATA de los aeropuertos de origen y destino, el usuario puede ingresar los detalles de la búsqueda de vuelos (fecha de ida, fecha de vuelta y cantidad de personas).
